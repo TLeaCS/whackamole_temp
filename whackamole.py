@@ -27,7 +27,7 @@ def main():
                     if x_mole_cord <= event.pos[0] <= x_mole_cord + 64 and y_mole_cord <= event.pos[1] <= y_mole_cord + 64:
                         #Prints moles coordinates
                         print(event.pos)
-                        #Generates random x and y coordinates
+                        #Generates random x and y coordinates for mole
                         mole = (random.randrange(0, 10) * 64, random.randrange(0, 8) * 64)
 
             screen.fill("light green")
